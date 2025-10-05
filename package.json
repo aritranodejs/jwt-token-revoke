@@ -1,0 +1,33 @@
+{
+  "name": "jwt-token-revoke",
+  "version": "1.0.1",
+  "description": "A simple and efficient JWT token blacklisting library for immediate token revocation",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "jwt",
+    "blacklist",
+    "token",
+    "revocation",
+    "logout",
+    "authentication"
+  ],
+  "author": "Aritra Dutta",
+  "license": "MIT",
+  "files": [
+    "src/**",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
